@@ -24,3 +24,9 @@ export function Card({
     </a>
   );
 }
+
+export const lala: number[] = [11, 22, 33];
+// export const lala: number[][] = [
+//   [1, 2],
+//   [3, 4],
+// ];
