@@ -19,16 +19,21 @@ jobs:
         with:
           node-version: '18.x'
       - name: Install TurboRepo CLI
-        run: yarn global add turbo
+        # run: yarn global add turbo
+        run: npm install turbo --global
       - name: Lint, Build, and Test
         run: |
-          yarn
-          yarn workspaces foreach --verbose --since --no-private info
+          npm i
+          turbo run lint
+          # turbo run build
+          # turbo run test
+          # yarn
+          # yarn workspaces foreach --verbose --since --no-private info
           # yarn workspaces info
           # yarn workspaces foreach install
           # turbo run lint --filter="...[HEAD^1]"
           # turbo run build --filter="...[HEAD^1]"
-          turbo run lint 
+          # turbo run lint 
           # turbo run build 
           # turbo run test --filter=...[origin/main]
 
