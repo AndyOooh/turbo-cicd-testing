@@ -1,11 +1,11 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { toUpper } from 'lodash';
+// import { toUpper } from 'lodash';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const str = toUpper('hello');
+// const str = toUpper('hello');
 
 export const metadata: Metadata = {
   title: 'Create Turborepo',
