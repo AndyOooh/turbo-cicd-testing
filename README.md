@@ -6,7 +6,7 @@ This is an official starter Turborepo - feat1
 - double push
 - after
 - default branch 2
-- lala
+- lal
 
 ## Using this example
 
