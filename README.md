@@ -5,7 +5,7 @@ This is an official starter Turborepo - feat1
 - featsuc2
 - double push
 - after
-- default branch
+- default branch 2
 
 ## Using this example
 
