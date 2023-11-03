@@ -10,7 +10,8 @@
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "tsconfig": "*",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.2.2"
   },
   "name": "turbo-cicd-testing",
   "packageManager": "npm@9.5.1",
@@ -19,6 +20,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "axios": "^1.6.0",
     "web": "^1.0.0"
   }
 }

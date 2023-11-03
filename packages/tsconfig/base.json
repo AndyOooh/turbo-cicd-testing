@@ -3,6 +3,7 @@
   "display": "Default",
   "compilerOptions": {
     "composite": false,
+    "lib": ["es2015"],
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
@@ -19,3 +20,6 @@
   },
   "exclude": ["node_modules"]
 }
+
+
+

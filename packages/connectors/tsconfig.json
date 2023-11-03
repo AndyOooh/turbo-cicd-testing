@@ -1,0 +1,30 @@
+{
+  "extends": "tsconfig/base.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+
+// From Conn2.0:
+// {
+//   "compilerOptions": {
+//       "allowJs": true,
+//       "module": "commonjs",
+//       "noImplicitReturns": true,
+//       "noUnusedLocals": false,
+//       "outDir": "lib",
+//       "sourceMap": true,
+//       "strict": true,
+//       "target": "es2017",
+//       "esModuleInterop": true,
+//       "skipLibCheck": true,
+//       "resolveJsonModule": true,
+//       "declaration": true
+//   },
+//   "compileOnSave": true,
+//   "include": ["src"],
+//   "exclude": ["node_modules", "**/__tests__/*"]
+// }
